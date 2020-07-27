@@ -145,9 +145,14 @@ h2 {
 	flex-direction: row;
 	justify-content: space-between;
 }
-.posts-item__image_1 {
+.posts-item__image_1, .posts-item__image_2, .posts-item__image_3 {
+	width: 248.74px;
+	height: 156px;
+}
+.posts-item__image_1{
 	background-image: url('./images/img.png');
 }
+
 .posts-item__image_2 {
 	background-image: url('./images/img (1).png');
 }
@@ -155,15 +160,29 @@ h2 {
 	background-image: url('./images/img (2).png');
 }
 .youtube-video{
-	position: absolute;
-	padding-top: 60px;
+	position: ;
+	padding-top: 20px;
 }
 .blog-posts {
 	display: flex;
-	height: 406px;
-	width: 750px;
+	flex-direction: column;
 }
-.post-wrapper {
-	position: absolute;
-	padding-top: 60px;	
+.post_1, .post_2, .post_3 {
+
+	width: 248.74px;
+	height: 348px;
+	margin-left: 30px;
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	box-shadow: 0px 0px 40px rgba;
+}
+.Retungles {
+	padding-top: 20px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+}
+.posts {
+	margin-left: 35px;
 }
